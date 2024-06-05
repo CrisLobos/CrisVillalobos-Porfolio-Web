@@ -360,7 +360,6 @@ header {
     grid-column: 2 ;
     width: 20rem;
     height: 26rem;
-    border-radius: 50%;
     margin: 0 0 2rem 6rem;
     transition: ease .2s;
 }
