@@ -4,6 +4,12 @@ body {
     font-family: "Raleway", sans-serif;
     height: 100%;
     margin: 0;
+
+    @media (max-width: 767px) {
+        
+    }
+
+    
 }
 
 /* H E A D E R */
@@ -23,7 +29,8 @@ header {
     margin: 2rem 16rem;
 
     @media (max-width: 767px) {
-        text-align: center;
+        text-align: left;
+        margin: 1rem 2rem;
     }
 }
 
@@ -72,6 +79,10 @@ header {
 }
 
 @media (max-width: 865px) {
+
+    .hamburger-menu {
+        margin-right: 10rem;
+    }
 
     .abrir-menu,
     .cerrar-menu {
@@ -130,6 +141,7 @@ header {
 
     @media (max-width: 767px) {
         padding-top: 10rem;
+        margin-bottom: 7rem;
     }
 }
 
@@ -137,13 +149,14 @@ header {
     font-size: 5rem;
 
     @media (max-width: 767px) {
-        font-size: 4rem;
+        font-size: 3rem;
+        margin-bottom: 4rem;
     }
 }
 
 .subtitulo {
     font-size: 1.5rem;
-    margin: 0 2rem;
+    margin: 1rem 1rem;
 }
 
 .tecnologias {
@@ -178,7 +191,7 @@ header {
         grid-column: 1 / 4;
         font-size: 2rem;
         line-height: 5rem;
-        margin: 4rem;
+        margin: 1rem;
     }
 }
 
@@ -310,7 +323,9 @@ header {
     @media (max-width: 865px) {
         grid-row: 2;
         grid-column: 1;
-        padding: 2rem;
+        padding: 0rem;
+        margin: 1rem 2rem;
+        font-size: 2rem;
     }
 }
 
@@ -337,7 +352,7 @@ header {
     @media (max-width: 865px) {
         margin: auto;
         grid-row: 4;
-        grid-column: 1 / 3;
+        grid-column: 1 / 4;
 
     }
 }
@@ -349,7 +364,7 @@ header {
     transition: transform 0.3s, box-shadow 0.3s;
 
     @media (max-width: 865px) {
-        margin: 1rem 3rem 3rem 3rem;
+        margin: 1rem 2rem;
     }
 }
 
@@ -364,6 +379,10 @@ header {
     height: 26rem;
     margin: 0 0 2rem 6rem;
     transition: ease .2s;
+
+    @media (max-width: 865px) {
+        visibility: hidden;
+    }
 }
 
 .foto-perfil:hover {
@@ -401,10 +420,13 @@ header {
     height: 30rem;
     width: 36rem;
     border-radius: 1rem;
-    margin: 0 0;
+    margin: auto;
 
     @media (max-width: 865px) {
         margin: 0 1rem 0 1rem;
+        width: 25rem;
+        height: 39rem;
+        
     }
 }
 
@@ -412,6 +434,12 @@ header {
 .informacion-formulario {
     padding: 0;
     margin-top: 2rem;
+
+    @media (max-width: 865px) {
+        padding: auto;
+        margin: auto;
+        
+    }
 
 }
 
@@ -425,6 +453,11 @@ header {
 .texto {
     color: #C44F74;
     font-weight: 600;
+
+    @media (max-width: 865px) {
+        margin-left: 2rem;
+        
+    }
 }
 
 .caja-texto {
@@ -465,6 +498,11 @@ header {
     margin-left: 3rem;
     height: 2rem;
     width: 20rem;
+
+    @media (max-width: 865px) {
+        margin: 2rem;
+        
+    }
 }
 
 .tres {
@@ -481,4 +519,8 @@ footer {
     grid-row: 4;
     grid-column: 2;
     margin-bottom: 1rem;
+
+    @media (max-width: 865px) {
+        font-size: .9rem;
+    }
 }
