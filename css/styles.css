@@ -18,6 +18,7 @@ header {
 
     @media (max-width: 767px) {
         justify-content: space-between;
+        position: relative;
     }
 }
 
@@ -27,8 +28,9 @@ header {
     margin: 2rem 16rem;
 
     @media (max-width: 767px) {
+        text-align: center;
         text-align: left;
-        margin: 1rem 1rem;
+        margin: 1rem 2rem;
     }
 }
 
@@ -68,6 +70,16 @@ header {
 }
 
 /* H a m b u r g u e s a */
+.bi {
+    font-size: 4rem;
+    position: absolute;
+    margin-left: 6rem;
+}
+
+.bi-x {
+    position: relative;
+}
+
 .hamburger-menu {
     margin: 0rem 8rem;
 }
@@ -115,7 +127,7 @@ header {
         opacity: 1;
         visibility: visible;
 
-        
+
     }
 
     .nav-principal {
@@ -125,8 +137,8 @@ header {
 
         @media (max-width: 767px) {
             position: relative;
-            
-        
+
+
         }
     }
 }
