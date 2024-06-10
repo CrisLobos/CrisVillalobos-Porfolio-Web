@@ -408,7 +408,7 @@ header {
 
 .foto-perfil:hover {
     transition: ease .2s;
-    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.1), 0 0 40px rgba(255, 255, 255, 0.1);
 }
 
 /* C O N T A C T O */
